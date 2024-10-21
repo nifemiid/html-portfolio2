@@ -1,0 +1,12 @@
+.navbar{
+background-color: lightcoral;
+}
+.navbar > .container-fluid{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.navbar-brand{
+    font-size: 30px;
+}
