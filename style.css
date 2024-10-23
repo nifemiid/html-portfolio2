@@ -1,15 +1,14 @@
 .navbar{
     padding: 0%;
 }
-.container-fluid{
-background-color: bisque;
-padding: 10px;
-}
+
 .navbar > .container-fluid{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: bisque;
+    padding: 5px;
 }
 .navbar-brand{
     font-size: 30px;
@@ -18,15 +17,20 @@ ul{
     font-weight: bolder;
     list-style-type: none;
     opacity: 60%;
-}
-.lead{
-    font-weight: bolder;
-    opacity: 70%;
-}
-ul{
     display: grid;
     grid-template-columns: 1fr
     1fr ;
     grid-auto-rows: min-content;
 }
-    
+.lead{
+    font-weight: bolder;
+    opacity: 70%;
+    display: flex;
+    justify-content: left;
+}
+img{
+    border-radius: 2.5%;
+}
+h1{
+    text-align: center;
+}
